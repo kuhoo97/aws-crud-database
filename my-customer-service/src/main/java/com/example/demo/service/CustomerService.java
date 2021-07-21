@@ -11,8 +11,8 @@ public interface CustomerService {
 
 	public Customer createCustomer(Customer customer);
 	public List<Customer> getAllCustomer();
-	public Optional<Customer> getById(Integer id);
+	//public Optional<Customer> getById(Integer id);
 
-	public String deleteById(Integer id);
-	public Customer updateCustomer(Integer id, Customer customer);
+//	public String deleteById(Integer id);
+//	public Customer updateCustomer(Integer id, Customer customer);
 }

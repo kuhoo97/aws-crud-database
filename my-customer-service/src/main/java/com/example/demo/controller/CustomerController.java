@@ -76,6 +76,7 @@ public class CustomerController {
 		return ResponseEntity.status(HttpStatus.OK).body(customerService.getAllCustomer());
 	}
 	
+	/*
 	@GetMapping("/customers/{id}")
 	public ResponseEntity<Optional<Customer>> getById(@PathVariable("id") Integer id)
 	{
@@ -100,7 +101,7 @@ public class CustomerController {
 		return ResponseEntity.ok(customerService.deleteById(id));
 	}
 	
-	
+	*/
 	
 	
 	

@@ -41,7 +41,7 @@ public class CustomerServiceImpl implements CustomerService {
 		List<Customer> c = customerDao.findAll();
 		return c;
 	}
-
+/*
 	@Override
 	public Optional<Customer> getById(Integer id) {
 		// TODO Auto-generated method stub
@@ -87,5 +87,5 @@ public class CustomerServiceImpl implements CustomerService {
 		log.info("updated");
 		return tempCust;
 	}
-
+*/
 }
